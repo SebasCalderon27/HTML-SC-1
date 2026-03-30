@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#inicio {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start; /* Alinea el contenido arriba */
+}
+
+.texto {
+    flex: 2;
+}
+
+/* Estilo para el nuevo article */
+.proyecto-item {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.foto {
+    flex: 1;
+}
+
+.foto img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: redondea un poco las esquinas */
+    display: block;
+}
+
+h1 {
+    color: red;
+}
+
+h2, h3 {
+    color: black;
+}
+
+p, li, a {
+    color: #00aaff;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+}
